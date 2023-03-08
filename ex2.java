@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.List;
 
 public class ex2{
     public static void main (String args []){
@@ -63,7 +64,17 @@ public class ex2{
         return pal;
     }
 
-    //public static int somaLista(int[] lista){
-    //    
-    //}
+    public static int somaLista(List<int> lista){
+      if(lista.size()==0){
+        return 0;
+      }
+      if(lista.size()==1){
+        return lista[0]
+      }
+      else{
+        int valor=lista[0];
+        int lista2[]=lista.;
+        return valor+somalista(lista2)
+      }
+    }
 }
