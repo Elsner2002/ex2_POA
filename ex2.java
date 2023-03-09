@@ -12,6 +12,9 @@ public class ex2{
         //System.out.println(somaEntre(k,j));
         //String bin="";
         //int dec=in.nextInt();
+        //Int vetor = new int[10,5,7,67]
+        //Int pos = 0;
+        //Int maior = 0;
         String s=in.nextLine();
         System.out.println(isPal(s));
     }
@@ -77,7 +80,23 @@ public class ex2{
         int lista2[]=lista.;
         return valor+somalista(lista2)
       }
-    public static dec2bin(int dec){
+        
+
+
+public static int findBiggest(vetor []){
+if(pos<vetor.size()){
+if(vetor[pos]>maior){
+maior = vetor[pos];
+}
+pos ++;
+Int findBiggest(vetor);
+}
+else{
+System.out.println(“O maior elemento e: ” + maior)
+}
+}
+
+    public static int dec2bin(int dec){
      ((dec%2).toString()) + bin;
      if(dec/2>1){
       dec2bin(dec/2)
