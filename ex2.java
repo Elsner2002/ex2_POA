@@ -107,3 +107,38 @@ System.out.println(“O maior elemento e: ” + maior)
      }
     }
 }
+    
+     public static boolean findSubStr(String str, String match){
+    if (match.charAt(count) == str.charAt(repetitions)){
+      int y = 0;
+      for (int h = 0; h< match.lenght(); h++){
+        if(match.charAt(h) == str.charAt(h+repetitions)){
+          y++;
+          if (y == match.lenght()){
+            return true; 
+          }
+        }
+      }
+    }
+    else{
+      if(repetitions == str.lenght()){
+        return false;
+      }
+      else{
+      repetitions++;
+      findSubStr(str,match);
+      }
+    }
+  }
+
+    public static int nroDigit (int m){
+      if(m < 10){
+        numeroDeDigitos++;
+        System.out.println("O número de digitos é: " + numeroDeDigitos);
+      }
+      else{
+        numeroDeDigitos++;
+        nroDigit(m/10);
+      }
+    }
+}
