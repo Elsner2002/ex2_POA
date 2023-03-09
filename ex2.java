@@ -10,7 +10,8 @@ public class ex2{
         //int k=in.nextInt();
         //int j=in.nextInt();
         //System.out.println(somaEntre(k,j));
-
+        //String bin="";
+        //int dec=in.nextInt();
         String s=in.nextLine();
         System.out.println(isPal(s));
     }
@@ -76,5 +77,14 @@ public class ex2{
         int lista2[]=lista.;
         return valor+somalista(lista2)
       }
+    public static dec2bin(int dec){
+     ((dec%2).toString()) + bin;
+     if(dec/2>1){
+      dec2bin(dec/2)
+     }
+     if(dec/2==1){
+      “1” + bin;
+      system.out.println(“O valor em binário é: “ + bin);
+     }
     }
 }
